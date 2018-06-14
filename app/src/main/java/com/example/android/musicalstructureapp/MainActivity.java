@@ -1,11 +1,15 @@
 package com.example.android.musicalstructureapp;
 
 import android.content.Intent;
+import android.graphics.Point;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Display;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.io.BufferedReader;
@@ -21,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         // set main content view
         setContentView(R.layout.activity_main);
+        // adjust size
+        adjustSizes();
         // receive the song list from the file
         getSongDataFromJsonFile();
         // set click event on the START button
@@ -38,6 +44,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void adjustSizes() {
+        // Gets linearlayout
+        LinearLayout layout = findViewById(R.id.bottomLayout);
+        // Gets the layout params that will allow you to resize the layout
+        // Changes the height and width to the specified *pixels
+        Display display = getWindowManager().getDefaultDisplay();
+        Point size = new Point();
+        display.getSize(size);
+        int height = size.y;
+        layout.getLayoutParams().height = (int) (height*0.43);
     }
 
     //-------------------------------------------------------------------

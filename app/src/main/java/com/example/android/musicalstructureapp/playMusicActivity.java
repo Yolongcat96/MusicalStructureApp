@@ -2,12 +2,15 @@ package com.example.android.musicalstructureapp;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.Point;
 import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Display;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -23,6 +26,8 @@ public class playMusicActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_play_music);
+        // adjust size
+        adjustSizes();
         // get intents and data from the previous activity
         getDataFromActivity();
         // set the display textviews
@@ -33,6 +38,18 @@ public class playMusicActivity extends AppCompatActivity {
         setPlayButtonFunctions();
         // set the back arrow function
         setBackArrowFunction();
+    }
+
+    private void adjustSizes() {
+        // Gets linearlayout
+        LinearLayout layout = findViewById(R.id.bottomLayout);
+        // Gets the layout params that will allow you to resize the layout
+        // Changes the height and width to the specified *pixels
+        Display display = getWindowManager().getDefaultDisplay();
+        Point size = new Point();
+        display.getSize(size);
+        int height = size.y;
+        layout.getLayoutParams().height = (int) (height*0.23);
     }
 
     private void getDataFromActivity() {

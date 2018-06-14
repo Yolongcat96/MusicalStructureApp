@@ -1,6 +1,8 @@
 package com.example.android.musicalstructureapp;
 
 import android.content.Context;
+import android.graphics.Point;
+import android.view.Display;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,4 +76,5 @@ public class songUnitCollection {
                 return R.drawable.onekiss_album_image;
         }
     }
+
 }
