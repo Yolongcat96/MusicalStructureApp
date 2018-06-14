@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mainBGColorSkyblue">#A0CECB</color>
+    <color name="mainBGColorOrange">#EF8D69</color>
+    <color name="mainBGColorBrown">#7F645D</color>
+    <color name="artistNameColor">#80909D</color>
+</resources>

@@ -1,0 +1,74 @@
+{
+  "List": [
+    {
+      "songIndex": 0,
+      "songTitle": "One Kiss",
+      "artistName": "Dua Lipa",
+      "isFavorite": true,
+      "songAlbumImageFileName":"onekiss_album_image.png"
+    },
+    {
+      "songIndex": 1,
+      "songTitle": "God's Plan",
+      "artistName": "Drake",
+      "isFavorite": false,
+      "songAlbumImageFileName":"godplan_album_image.png"
+    },
+    {
+      "songIndex": 2,
+      "songTitle": "Nice For What",
+      "artistName": "Drake",
+      "isFavorite": true,
+      "songAlbumImageFileName":"niceforwhat_album_image.png"
+    },
+    {
+      "songIndex": 3,
+      "songTitle": "Havana",
+      "artistName": "Camila Cabello",
+      "isFavorite": false,
+      "songAlbumImageFileName":"havana_album_image.png"
+    },
+    {
+      "songIndex": 4,
+      "songTitle": "Psycho",
+      "artistName": "Post Malone",
+      "isFavorite": false,
+      "songAlbumImageFileName":"psycho_album_image.png"
+    },
+    {
+      "songIndex": 5,
+      "songTitle": "In My Blood",
+      "artistName": "Shawn Mendes",
+      "isFavorite": false,
+      "songAlbumImageFileName":"inmyblood_album_image.png"
+    },
+    {
+      "songIndex": 6,
+      "songTitle": "I Like It",
+      "artistName": "Cardi B",
+      "isFavorite": false,
+      "songAlbumImageFileName":"ilikeit_album_image.png"
+    },
+    {
+      "songIndex": 7,
+      "songTitle": "The Middle",
+      "artistName": "Maren Morris",
+      "isFavorite": false,
+      "songAlbumImageFileName":"themiddle_album_image.png"
+    },
+    {
+      "songIndex": 8,
+      "songTitle": "Flames",
+      "artistName": "Sia",
+      "isFavorite": false,
+      "songAlbumImageFileName":"flames_album_image.png"
+    },
+    {
+      "songIndex": 9,
+      "songTitle": "Friends",
+      "artistName": "Anne Marie",
+      "isFavorite": false,
+      "songAlbumImageFileName":"friends_album_image.png"
+    }
+  ]
+}

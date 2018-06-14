@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/mainBGColorSkyblue"
+            android:gravity="center"
+            tools:context=".MainActivity">
+
+            <ImageView
+                android:id="@+id/mainView"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/main_image" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/mainBGColorOrange"
+            android:gravity="center"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:text="@string/main_title"
+                android:textColor="#F4F8F5"
+                android:textSize="32sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/mainBGColorBrown"
+            android:gravity="center"
+            tools:context=".MainActivity">
+
+            <Button
+                android:id="@+id/startButton"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/mainBGColorSkyblue"
+                android:text="@string/start_button"
+                android:textColor="@android:color/white"
+                android:textSize="28sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

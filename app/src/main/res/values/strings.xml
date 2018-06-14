@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="main_title">My Music</string>
+    <string name="start_button">START</string>
+    <string name="menu">MENU</string>
+    <string name="title_activity_my_favorite">myFavoriteActivity</string>
+    <string name="my_favorite">My Favorite</string>
+    <string name="song_list">Song List</string>
+    <string name="play_music">Play Music</string>
+    <string name="song_title">Song Title</string>
+    <string name="artist_name">Artist Name</string>
+</resources>
