@@ -6,11 +6,11 @@ import android.widget.ImageView;
 // It includes all information for individual song.
 public class songUnit {
 
-    public int songIndex;
+    private int songIndex;
     public String songTitle;
-    public String artistName;
+    private String artistName;
 
-    public String songAlbumImageFile;
+    private String songAlbumImageFile;
     public boolean isFavorite;
     public ImageView favoriteIV;
 
@@ -31,15 +31,8 @@ public class songUnit {
         return artistName;
     }
 
-    public String getImageFileID() {
-        return songAlbumImageFile;
-    }
-
     public boolean getIsFavorite() {
         return isFavorite;
     }
 
-    public ImageView getFavoriteIV() {
-        return favoriteIV;
-    }
 }

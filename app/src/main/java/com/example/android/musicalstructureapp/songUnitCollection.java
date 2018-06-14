@@ -1,11 +1,8 @@
 package com.example.android.musicalstructureapp;
 
 import android.content.Context;
-import android.graphics.Point;
-import android.view.Display;
 
 import java.util.ArrayList;
-import java.util.List;
 
 // It saves information about the song list.
 public class songUnitCollection {

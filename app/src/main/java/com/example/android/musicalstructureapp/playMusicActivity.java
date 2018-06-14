@@ -3,17 +3,13 @@ package com.example.android.musicalstructureapp;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Point;
-import android.media.Image;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Display;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 public class playMusicActivity extends AppCompatActivity {
 
